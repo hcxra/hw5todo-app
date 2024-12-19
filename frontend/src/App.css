@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f0ff; /* Soft lilac background */
+  color: #4a326e; /* Deep lilac for text */
+}
+
+/* Container */
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White card for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #7d4eae; /* Bright lilac for the header */
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+}
+
+button[type="submit"] {
+  background-color: #7d4eae; /* Lilac */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #6b4195; /* Darker lilac */
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background: #f3e7ff; /* Pale lilac background */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.02); /* Slight hover zoom for interactivity */
+  background-color: #e9d6ff; /* Brighter lilac */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2); /* Larger checkbox for better UI */
+}
+
+button {
+  background-color: #d66aff; /* Lilac pink for delete */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c054e5; /* Darker pink */
+}
+
+/* Empty State */
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #7d4eae; /* Bright lilac for text */
+}
+
+/* Scrollbar Styling (Optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6b3ff; /* Lilac scrollbar */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f8f0ff; /* Match background */
+}
