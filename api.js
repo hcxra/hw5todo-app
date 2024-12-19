@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://hw5todo-app-2.onrender.com'
+const API_URL = 'https://hw5todo-app-2.onrender.com/api'
 
 // Get all tasks
 export const getTasks = async () => {
