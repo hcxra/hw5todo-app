@@ -4,6 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "list-files": "ls -R",
     "dev": "nodemon server.js"
   },  
   "keywords": [],
